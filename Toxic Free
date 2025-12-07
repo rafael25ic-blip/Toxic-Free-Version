@@ -1,1 +1,12 @@
+wait(0.1)
 
+local whiteScreen = Instance.new("ScreenGui")
+whiteScreen.Name = "WhiteScreen"
+whiteScreen.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+local helloText = Instance.new("TextLabel")
+helloText.Text = "No Disponible, Toxic Por Ahora Esta En Actualizacion."
+helloText.Size = UDim2.new(1, 0, 1, 0)
+helloText.BackgroundColor3 = Color3.new(1, 1, 1)
+helloText.TextColor3 = Color3.new(0, 0, 0)
+helloText.Parent = whiteScreen
